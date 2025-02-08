@@ -1,3 +1,6 @@
-[GO LSP]2025/02/02 20:46:54 main.go:15: Hey, I Started
-[GO LSP]2025/02/02 20:46:54 main.go:33: Received msg with method: initialize 
-[GO LSP]2025/02/02 20:46:54 main.go:41: Connected to: Neovim 0.10.3+g9b5ee7df4e 
+[GO LSP]2025/02/08 23:59:11 main.go:17: Hey, I Started
+[GO LSP]2025/02/08 23:59:11 main.go:37: Received msg with method: initialize 
+[GO LSP]2025/02/08 23:59:11 main.go:44: Connected to: Neovim 0.10.3+g9b5ee7df4e 23608 1
+[GO LSP]2025/02/08 23:59:11 main.go:48: Sent the reply
+[GO LSP]2025/02/08 23:59:17 main.go:37: Received msg with method: initialized 
+[GO LSP]2025/02/08 23:59:55 main.go:37: Received msg with method: shutdown 
