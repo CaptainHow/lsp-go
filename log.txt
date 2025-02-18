@@ -1,6 +1,39 @@
-[GO LSP]2025/02/08 23:59:11 main.go:17: Hey, I Started
-[GO LSP]2025/02/08 23:59:11 main.go:37: Received msg with method: initialize 
-[GO LSP]2025/02/08 23:59:11 main.go:44: Connected to: Neovim 0.10.3+g9b5ee7df4e 23608 1
-[GO LSP]2025/02/08 23:59:11 main.go:48: Sent the reply
-[GO LSP]2025/02/08 23:59:17 main.go:37: Received msg with method: initialized 
-[GO LSP]2025/02/08 23:59:55 main.go:37: Received msg with method: shutdown 
+[GO LSP]2025/02/10 22:39:57 main.go:17: Hey, I Started
+[GO LSP]2025/02/10 22:39:57 main.go:37: Received msg with method: initialize 
+[GO LSP]2025/02/10 22:39:57 main.go:44: Connected to: Neovim 0.10.3+g9b5ee7df4e 3584 1
+[GO LSP]2025/02/10 22:39:57 main.go:48: Sent the reply
+[GO LSP]2025/02/10 22:39:57 main.go:37: Received msg with method: initialized 
+[GO LSP]2025/02/10 22:39:57 main.go:37: Received msg with method: textDocument/didOpen 
+[GO LSP]2025/02/10 22:39:57 main.go:56: Opened: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:02 main.go:37: Received msg with method: textDocument/hover 
+[GO LSP]2025/02/10 22:40:02 main.go:96: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:02 main.go:37: Received msg with method: textDocument/didOpen 
+[GO LSP]2025/02/10 22:40:02 main.go:56: Opened: file://
+[GO LSP]2025/02/10 22:40:02 main.go:37: Received msg with method: textDocument/didChange 
+[GO LSP]2025/02/10 22:40:02 main.go:75: Changed: file://
+[GO LSP]2025/02/10 22:40:02 main.go:78: Content-Length: 2
+
+[]
+[GO LSP]2025/02/10 22:40:03 main.go:37: Received msg with method: textDocument/didClose 
+[GO LSP]2025/02/10 22:40:09 main.go:37: Received msg with method: textDocument/didChange 
+[GO LSP]2025/02/10 22:40:09 main.go:75: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:09 main.go:78: Content-Length: 143
+
+[{"range":{"start":{"line":6,"character":-1},"end":{"line":6,"character":6}},"severity":2,"source":"Common Sense","message":"Great choice :)"}]
+[GO LSP]2025/02/10 22:40:09 main.go:37: Received msg with method: textDocument/completion 
+[GO LSP]2025/02/10 22:40:09 main.go:125: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:09 main.go:37: Received msg with method: textDocument/didChange 
+[GO LSP]2025/02/10 22:40:09 main.go:75: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:09 main.go:78: Content-Length: 300
+
+[{"range":{"start":{"line":6,"character":62},"end":{"line":6,"character":69}},"severity":1,"source":"Common Sense","message":"Please start learning Neovim"},{"range":{"start":{"line":6,"character":62},"end":{"line":6,"character":69}},"severity":2,"source":"Common Sense","message":"Great choice :)"}]
+[GO LSP]2025/02/10 22:40:25 main.go:37: Received msg with method: textDocument/codeAction 
+[GO LSP]2025/02/10 22:40:25 main.go:116: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:27 main.go:37: Received msg with method: textDocument/didChange 
+[GO LSP]2025/02/10 22:40:27 main.go:75: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:40:27 main.go:78: Content-Length: 143
+
+[{"range":{"start":{"line":6,"character":-1},"end":{"line":6,"character":6}},"severity":2,"source":"Common Sense","message":"Great choice :)"}]
+[GO LSP]2025/02/10 22:40:31 main.go:37: Received msg with method: textDocument/codeAction 
+[GO LSP]2025/02/10 22:40:31 main.go:116: Changed: file:///D:/AHMED/Projects/Golang/LSP/lsp-go/README.md
+[GO LSP]2025/02/10 22:41:08 main.go:37: Received msg with method: shutdown 
